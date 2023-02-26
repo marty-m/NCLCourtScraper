@@ -32,6 +32,9 @@ Starting alert service...
 Searching available slots for Court 5...
 Searching available slots for Court 8...
 ```
+Resulting text message:<br>
+
+![alt text](https://i.imgur.com/1SwZkS7.jpg)
 
 The scraper will check for open slots every two hours (this is modifiable in 
 ``startTracker.go``). 
