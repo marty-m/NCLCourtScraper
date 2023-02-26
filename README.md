@@ -3,9 +3,10 @@
 <p>An SMS alert service notifying when there are open booking slots for Basketball courts at the Newcastle University Sport & Fitness Center.</p>
 
 <h2>Setup</h2>
+
 (The application is written in Golang, so please make sure you have the latest version installed from [here](https://go.dev/). 
 It also uses a headless Chrome browser for web-scraping, so please make sure you have a Chromium-based browser installed.)
-<br><br>
+
 
 Before building an executable make sure you fill out Newcastle University login details in both 
 ``court5.go`` and 
