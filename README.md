@@ -6,7 +6,9 @@
 (The application is written in Golang, so please make sure you have the latest version installed from [here](https://go.dev/). 
 It also uses a headless Chrome browser for web-scraping, so please make sure you have a Chromium-based browser installed.)
 <br><br>
-Before building an executable make sure you fill out Newcastle University login details in both ``court5.go`` and 
+
+Before building an executable make sure you fill out Newcastle University login details in both 
+``court5.go`` and 
 ``court8.go`` as well as your Twilio API credentials in ``sms.go``.
 
 To build an executable run the following in the project root directory:<br>
