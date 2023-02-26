@@ -30,8 +30,8 @@ The scraper will check for open slots every two hours (this is modifiable in ``s
 <br>(**Note**: You will only be notified of an open booking slot once. If
 the app has notified you about an open court slot in a previous message it will not include it in any future alerts.)
 <h2>License</h2>
-```text
-Copyright 2023 Martynas Miliauskas
+
+Copyright 2023 Martynas Miliauskas<br><br>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -44,5 +44,5 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-```
+
 
