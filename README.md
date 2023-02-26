@@ -16,17 +16,22 @@ go build ./main/
 (see examples on how to build executables for other platforms [here](https://opensource.com/article/21/1/go-cross-compiling))
 <h2>Usage</h2>
 Once the build is finished, run the executable:
+
 ```go
 ./my-executable
 ```
+
 The output should look like this:
+
 ```text
 ---------2023-01-01  10:00:00---------
 Starting alert service...
 Searching available slots for Court 5...
 Searching available slots for Court 8...
 ```
-The scraper will check for open slots every two hours (this is modifiable in ``startTracker.go``). 
+
+The scraper will check for open slots every two hours (this is modifiable in 
+``startTracker.go``). 
 <br>(**Note**: You will only be notified of an open booking slot once. If
 the app has notified you about an open court slot in a previous message it will not include it in any future alerts.)
 <h2>License</h2>
